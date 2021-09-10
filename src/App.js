@@ -27,6 +27,7 @@ function App() {
           <h2>Our Menu</h2>
           <div className="underline"></div>
         </div>
+        {/* pass filterCategories function as props called props drilling */}
         <Categories
           filterCategories={filterCategories}
           categories={categories}
